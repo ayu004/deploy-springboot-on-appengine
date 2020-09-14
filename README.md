@@ -57,6 +57,13 @@ We have written all boilerplate code to get you started within 5 minutes. You ku
  - When this Action gets completed you can headover to App Engine URL : **https://< GCP_PROJECT_ID >.uc.r.appspot.com/** where GCP_PROJECT_ID is Project ID of your Google Cloud Platform project.
  ![Github Action Complete](/assets/gae-deploy-complete.JPG)
 
+3. Checking Logs
+  - Go to App Engine > Services and click on Tools in your default deployed service and select Logs which will open the logs of application.
+  - You can click on Play button on top to start streaming live logs.
+
+![Logs](/assets/logs.PNG) 
+
+- It might take some time to service to get up and running or logs to load initially
 
 ## Happy Coding :smile:  
 
