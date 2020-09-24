@@ -1,22 +1,3 @@
-# CodeComp3-Java-Player
-
-## Prerequisites to play
-- Git
-- Editor of your choice(eclipse/intelliJ recommended)
-
-## How to play from your local machine with 'dumb' algo
-We have written all boilerplate code to get you started within 5 minutes. You kust need to make 'MySmartAlgo' smarter. You can improve your algo by playing with test server.
-- Clone this repo using : git clone <Link of this repo>
-- cd codecomp3-java-player
-- change 'myTeam' and 'pass' in application.properties inside src/main/resources
-- Using editor of your choice, Run as Java Application or as maven project using run goal as : clean spring-boot:run and start playing.
-- see url for live score : <leaderboard URL Here>
-
-## Final Competition Day
-- You need to deploy your algo in Google Cloud Platform to connect to game server.
-- You can fork this repository, modify algo, check-in and deploy into Google Cloud from your github repository.
--  Step-by-step guide to deploy a Java application on google cloud is given below:
-
 ## Step-by-step guide
 
 1. Setting up Google Cloud Project (skip if you already have a GCP Project)
