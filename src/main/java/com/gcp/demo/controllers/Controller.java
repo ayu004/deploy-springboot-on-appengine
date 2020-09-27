@@ -13,9 +13,9 @@ public class Controller {
 	public Employee firstPage() {
 
 		Employee emp = new Employee();
-		emp.setName("emp1");
-		emp.setAge(22);
-		emp.setEmpId("1");
+		emp.setName("emp2");
+		emp.setAge(23);
+		emp.setEmpId("2");
 		
 		return emp;
 	}
