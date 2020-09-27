@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.gcp</groupId>
-  <artifactId>codecomp</artifactId>
+  <artifactId>demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>codecomp</name>
-  <url>http://maven.apache.org</url>
-
+    <name>SpringBootHelloWorld</name>
+	<description>Demo project for Spring Boot</description>
+	
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -27,11 +27,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	
-	   <dependency>
-     		<groupId>junit</groupId>
-      		<artifactId>junit</artifactId>
-      		<scope>test</scope>
-       </dependency>
+       <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
   </dependencies>
 	
 <build>
