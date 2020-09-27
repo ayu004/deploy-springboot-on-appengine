@@ -33,7 +33,7 @@ jobs:
     
     - name: Build with Maven
       run: mvn clean package
-	  
+      
     # Setup gcloud CLI
     - name: Setup gcloud CLI
       uses: GoogleCloudPlatform/github-actions/setup-gcloud@0.1.3
@@ -44,7 +44,7 @@ jobs:
 
     # Configure Docker to use the gcloud command-line tool as a credential helper for authentication
     - name: Configure Docker to use gcloud for authentication
-    - run: |-
+      run: |-
         gcloud --quiet auth configure-docker
     
     # Build the Docker image
