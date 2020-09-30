@@ -58,9 +58,9 @@ jobs:
         export_default_credentials: true 
 
     # Configure Docker to use the gcloud command-line tool as a credential helper for authentication
-    - name: Configure Docker to use gcloud for authentication
-      run: |-
-        gcloud --quiet auth configure-docker
+#    - name: Configure Docker to use gcloud for authentication
+#      run: |-
+#        gcloud --quiet auth configure-docker
     
     # Pull previously pushed stages(if any), Build the Docker image using cache and push it to registry
     - uses: whoan/docker-build-with-cache-action@v5
