@@ -68,9 +68,9 @@ jobs:
         username: _json_key
         password: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
         registry: gcr.io
-        image_name: gcp-appengine          
+        image_name: gcp-appengine-demo-app          
         
     # Deploy the Docker image to the GKE cluster
     - name: Deploy the application to Google App Engine
       run: |-
-        gcloud app deploy --quiet --version=java --project=$GCP_PROJECT --image-url=gcr.io/$GCP_PROJECT/gcp-appengine
+        gcloud app deploy --quiet --version=java --project=$GCP_PROJECT --image-url=gcr.io/$GCP_PROJECT/gcp-appengine-demo-app
