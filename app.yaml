@@ -1,4 +1,4 @@
-service: TestService-java-SB
+service: testservice
 runtime: java11
 
 instance_class: B1
